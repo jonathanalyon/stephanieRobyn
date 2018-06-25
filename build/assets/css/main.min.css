@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Parisienne|Roboto");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -279,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .huge, h1 {
   font-size: 68px;
+  font-family: Parisienne;
   line-height: 1.05; }
   @media only screen and (max-width: 680px) {
     .huge, h1 {
@@ -343,3 +344,18 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+.main-nav {
+  display: flex;
+  margin-top: 20px; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: black;
+    display: block;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-weight: 500;
+    text-decoration: none; }
